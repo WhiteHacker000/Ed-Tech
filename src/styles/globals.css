@@ -1,0 +1,11 @@
+/* basic reset and tokens placeholder */
+:root {
+  --brand: #14532d;
+  --brand-600: #16a34a;
+  --bg: #f7fbf6;
+  --text: #0a0a0a;
+}
+* { box-sizing: border-box; }
+html, body, #root { height: 100%; }
+body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; background: var(--bg); color: var(--text); }
+
