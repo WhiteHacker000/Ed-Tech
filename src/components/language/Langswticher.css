@@ -1,0 +1,32 @@
+.language-switcher {
+    display: flex;
+    gap: 0.5rem;
+}
+.language-button{
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.5rem;
+    border: 1px solid hsl(var(--border));
+    border-radius: 0.5rem;
+    background: hsl(var(--border));
+    color: hsl(var(--foreground));
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 0.875rem;
+}
+.language-button:hover{ 
+    background: hsl(var(--accent));
+}
+
+.language-button.active{
+    background: hsl(var(--primary));
+    color: hsl(var(--primary-foreground));
+    border-color: hsl(var(--primary));
+}
+.language-button .flag{
+    font-size: 1rem;
+}
+.language-button .code{
+    font-weight: 500;
+}
